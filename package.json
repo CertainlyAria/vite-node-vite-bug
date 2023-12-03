@@ -1,0 +1,23 @@
+{
+  "name": "vike-vite-node",
+  "type": "module",
+  "packageManager": "pnpm@8.11.0",
+  "scripts": {
+    "dev:vite-node": "vite-node ./src/vike/server",
+    "dev:tsx": "node --import tsx ./src/vike/server"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sirv": "^2.0.3",
+    "vike": "^0.4.147",
+    "vite": "^5.0.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "tsx": "^4.6.2",
+    "vite-node": "^0.34.6"
+  }
+}
